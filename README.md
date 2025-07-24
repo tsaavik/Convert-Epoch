@@ -18,12 +18,12 @@ This program searches for 10-digit epoch timestamps (Unix timestamps) in text in
 
 ### From File
 ```bash
-cat logfile.txt | convert_epoch.py
+cat logfile.txt | convertepoch.py
 ```
 
 ### From Command Output
 ```bash
-some_command | convert_epoch.py
+some_command | convertepoch.py
 ```
 
 ## Example
@@ -50,7 +50,7 @@ cd Convert-Epoch
 
 2. Make the script executable:
 ```bash
-chmod +x convert_epoch.py
+chmod +x convertepoch.py
 ```
 
 ## Requirements
